@@ -114,7 +114,7 @@ export default function (api: any) {
       if (!ideas.length) return { text: `📭 No ideas yet. Path: ${path}` };
       
       ideas.sort((a, b) => b.modified - a.modified);
-      const lines = ideas.slice(0, 6).map(i => `${getStageEmoji(i.stage)} ${i.shortTitle}`);
+      const lines = ideas.slice(0, 6).map(i => `${i.location === "trash" ? "🗑️" : getStageEmoji(i.stage)} ${i.shortTitle}`);
       return { text: `**Recent Ideas:**\n${lines.join("\n")}` };
     },
   });
@@ -126,7 +126,8 @@ export default function (api: any) {
     requireAuth: true,
     handler: (ctx: any) => {
       const args = ctx.args?.trim() || "";
-      const ideas = readIdeas(getVaultPath());
+      const allIdeas = readIdeas(getVaultPath());
+      const ideas = allIdeas.filter(i => i.location !== "trash");
 
       // Stage drill-down
       if (args.startsWith("stage:")) {
