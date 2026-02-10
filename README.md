@@ -175,4 +175,4 @@ MIT © 2026 Benjamin Miller
 
 ---
 
-Made for [OpenClaw](https://openclaw.ai) 🦞
+Made with and for [OpenClaw](https://openclaw.ai) 🦞
