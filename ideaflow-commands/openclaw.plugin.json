@@ -1,0 +1,24 @@
+{
+  "id": "ideaflow-commands",
+  "name": "Ideaflow Commands",
+  "description": "Slash commands addon for Ideaflow skill (/ideas, /ideas_status)",
+  "version": "1.0.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "vaultPath": {
+        "type": "string",
+        "title": "Ideas vault path",
+        "description": "Path to the ideas-vault/ideas directory. Should contain workbench/, shipped/, and trash/."
+      }
+    }
+  },
+  "uiHints": {
+    "vaultPath": {
+      "label": "Ideas vault path",
+      "placeholder": "~/.openclaw/workspace/ideas-vault/ideas",
+      "help": "Directory containing workbench/, shipped/, and trash/ folders."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@benmillerat/ideaflow-commands",
+  "version": "1.0.0",
+  "description": "Slash commands addon for the Ideaflow skill",
+  "license": "MIT",
+  "openclaw": {
+    "extensions": {
+      "ideaflow-commands": "index.ts"
+    }
+  }
+}
