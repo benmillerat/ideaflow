@@ -1,4 +1,4 @@
-# Ideaflow
+# Ideaflow – for OpenClaw
 
 **Lightweight idea management for OpenClaw** 🦞 — capture ideas from spark to shipped.
 
