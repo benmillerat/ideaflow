@@ -1,6 +1,6 @@
 {
   "name": "@benmillerat/ideaflow-commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slash commands addon for the Ideaflow skill",
   "license": "MIT",
   "openclaw": {
