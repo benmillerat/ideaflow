@@ -1,6 +1,6 @@
 # Ideaflow – for OpenClaw
 
-**Lightweight idea management skill for OpenClaw** 🦞 — capture ideas from spark to shipped.
+**Lightweight idea management skill for [OpenClaw](https://github.com/openclaw/openclaw)** 🦞 — capture ideas from spark to shipped. 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-compatible-blue)](https://openclaw.ai)
