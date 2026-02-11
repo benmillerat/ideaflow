@@ -23,7 +23,7 @@ Ideaflow is a simple idea tracking system for [OpenClaw](https://openclaw.ai). I
 | **ideaflow-skill** | Core skill (agent instructions) | `clawhub install idea` |
 | **ideaflow-commands** | Optional addon for `/ideas` and `/ideas_status` | `openclaw plugins install @benmillerat/ideaflow-commands` |
 
-> **Note:** The addon slash commands (`/ideas`, `/ideas_status`) and inline buttons are **Telegram-specific**. The core `/idea` command works on any channel.
+> **Note:** The addon slash commands (`/ideas`, `/ideas_status`) and inline buttons are currently **Telegram-specific**. The core `/idea` command works on any channel.
 
 ## Installation
 
