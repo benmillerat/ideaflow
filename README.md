@@ -2,8 +2,8 @@
 
 **Lightweight idea management skill for [OpenClaw](https://github.com/openclaw/openclaw)** 🦞 — capture ideas from spark to shipped. 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-compatible-blue)](https://openclaw.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-compatible-green?style=for-the-badge)](https://openclaw.ai)
 
 ## What is Ideaflow?
 
